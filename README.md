@@ -1,5 +1,5 @@
 # WhatsAppAPI
-Uma implementação da api do <a href="https://github.com/pedroslopez/whatsapp-web.js">wweb.js</a> com muitas modificações pra uso profissional
+Uma implementação da api do <a href="https://github.com/pedroslopez/whatsapp-web.js">wweb.js</a> com muitas modificações para uso empresarial
 
 # Como usar?
 
