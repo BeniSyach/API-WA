@@ -218,13 +218,13 @@ app.post('/send-message', [
     client.sendMessage(numberZDG, message).then(response => {
     res.status(200).json({
       status: true,
-      message: 'BOT-DLINK Mensagem enviada',
+      message: 'BOT-LUCAS Mensagem enviada',
       response: response
     });
     }).catch(err => {
     res.status(500).json({
       status: false,
-      message: 'BOT-DLINK Mensagem não enviada',
+      message: 'BOT-LUCAS Mensagem não enviada',
       response: err.text
     });
     });
@@ -234,13 +234,13 @@ app.post('/send-message', [
     client.sendMessage(numberZDG, message).then(response => {
     res.status(200).json({
       status: true,
-      message: 'BOT-DLINK Mensagem enviada',
+      message: 'BOT-LUCAS Mensagem enviada',
       response: response
     });
     }).catch(err => {
     res.status(500).json({
       status: false,
-      message: 'BOT-DLINK Mensagem não enviada',
+      message: 'BOT-LUCAS Mensagem não enviada',
       response: err.text
     });
     });
@@ -250,13 +250,13 @@ app.post('/send-message', [
     client.sendMessage(numberZDG, message).then(response => {
     res.status(200).json({
       status: true,
-      message: 'BOT-DLINK Mensagem enviada',
+      message: 'BOT-LUCAS Mensagem enviada',
       response: response
     });
     }).catch(err => {
     res.status(500).json({
       status: false,
-      message: 'BOT-DLINK Mensagem não enviada',
+      message: 'BOT-LUCAS Mensagem não enviada',
       response: err.text
     });
     });
@@ -299,13 +299,13 @@ app.post('/send-media', [
     client.sendMessage(numberZDG, media, {sendAudioAsVoice: audio}).then(response => {
     res.status(200).json({
       status: true,
-      message: 'BOT-DLINK Mensagem enviada',
+      message: 'BOT-LUCAS Mensagem enviada',
       response: response
     });
     }).catch(err => {
     res.status(500).json({
       status: false,
-      message: 'BOT-DLINK Mensagem não enviada',
+      message: 'BOT-LUCAS Mensagem não enviada',
       response: err.text
     });
     });
@@ -315,13 +315,13 @@ app.post('/send-media', [
     client.sendMessage(numberZDG, media, {sendAudioAsVoice: audio}).then(response => {
     res.status(200).json({
       status: true,
-      message: 'BOT-DLINK Mensagem enviada',
+      message: 'BOT-LUCAS Mensagem enviada',
       response: response
     });
     }).catch(err => {
     res.status(500).json({
       status: false,
-      message: 'BOT-DLINK Mensagem não enviada',
+      message: 'BOT-LUCAS Mensagem não enviada',
       response: err.text
     });
     });
@@ -331,13 +331,13 @@ app.post('/send-media', [
     client.sendMessage(numberZDG, media, {sendAudioAsVoice: audio}).then(response => {
     res.status(200).json({
       status: true,
-      message: 'BOT-DLINK Mensagem enviada',
+      message: 'BOT-LUCAS Mensagem enviada',
       response: response
     });
     }).catch(err => {
     res.status(500).json({
       status: false,
-      message: 'BOT-DLINK Mensagem não enviada',
+      message: 'BOT-LUCAS Mensagem não enviada',
       response: err.text
     });
     });
@@ -380,13 +380,13 @@ app.post('/send-message-media', [
       client.sendMessage(numberZDG, media, {caption: caption}).then(response => {
       res.status(200).json({
         status: true,
-        message: 'BOT-DLINK Mensagem enviada',
+        message: 'BOT-LUCAS Mensagem enviada',
         response: response
       });
       }).catch(err => {
       res.status(500).json({
         status: false,
-        message: 'BOT-DLINK Mensagem não enviada',
+        message: 'BOT-LUCAS Mensagem não enviada',
         response: err.text
       });
       });
@@ -396,13 +396,13 @@ app.post('/send-message-media', [
       client.sendMessage(numberZDG, media, {caption: caption}).then(response => {
       res.status(200).json({
         status: true,
-        message: 'BOT-DLINK Mensagem enviada',
+        message: 'BOT-LUCAS Mensagem enviada',
         response: response
       });
       }).catch(err => {
       res.status(500).json({
         status: false,
-        message: 'BOT-DLINK Mensagem não enviada',
+        message: 'BOT-LUCAS Mensagem não enviada',
         response: err.text
       });
       });
@@ -412,13 +412,13 @@ app.post('/send-message-media', [
       client.sendMessage(numberZDG, media, {caption: caption}).then(response => {
       res.status(200).json({
         status: true,
-        message: 'BOT-DLINK Mensagem enviada',
+        message: 'BOT-LUCAS Mensagem enviada',
         response: response
       });
       }).catch(err => {
       res.status(500).json({
         status: false,
-        message: 'BOT-DLINK Mensagem não enviada',
+        message: 'BOT-LUCAS Mensagem não enviada',
         response: err.text
       });
       });
@@ -430,13 +430,13 @@ app.post('/send-message-media', [
       client.sendMessage(numberZDG, media, {caption: caption}).then(response => {
       res.status(200).json({
         status: true,
-        message: 'BOT-DLINK Mensagem enviada',
+        message: 'BOT-LUCAS Mensagem enviada',
         response: response
       });
       }).catch(err => {
       res.status(500).json({
         status: false,
-        message: 'BOT-DLINK Mensagem não enviada',
+        message: 'BOT-LUCAS Mensagem não enviada',
         response: err.text
       });
       });
@@ -446,13 +446,13 @@ app.post('/send-message-media', [
       client.sendMessage(numberZDG, media, {caption: caption}).then(response => {
       res.status(200).json({
         status: true,
-        message: 'BOT-DLINK Mensagem enviada',
+        message: 'BOT-LUCAS Mensagem enviada',
         response: response
       });
       }).catch(err => {
       res.status(500).json({
         status: false,
-        message: 'BOT-DLINK Mensagem não enviada',
+        message: 'BOT-LUCAS Mensagem não enviada',
         response: err.text
       });
       });
@@ -462,13 +462,13 @@ app.post('/send-message-media', [
       client.sendMessage(numberZDG, media, {caption: caption}).then(response => {
       res.status(200).json({
         status: true,
-        message: 'BOT-DLINK Mensagem enviada',
+        message: 'BOT-LUCAS Mensagem enviada',
         response: response
       });
       }).catch(err => {
       res.status(500).json({
         status: false,
-        message: 'BOT-DLINK Mensagem não enviada',
+        message: 'BOT-LUCAS Mensagem não enviada',
         response: err.text
       });
       });
