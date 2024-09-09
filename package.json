@@ -1,8 +1,8 @@
 {
-  "name": "bot-dlk",
+  "name": "whatsapp-api",
   "version": "1.0.0",
-  "description": "bot-dlk: based on Whatsapp API",
-  "main": "app.js",
+  "description": "ini adalah API whatsapp Web",
+  "main": "app-multiple-device.js",
   "scripts": {
     "start": "node app-multiple-device.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "whatsapp-api",
     "node.js"
   ],
-  "author": "Pedro",
+  "author": "Benisyach",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.20.0",
