@@ -96,6 +96,7 @@
 			});
 
 			socket.on('qr', function(data) {
+				console.log("QR code data received: ", data);
 				$(`.client.${data.id} #qrcode`).attr('src', data.src);
 				$(`.client.${data.id} #qrcode`).show();
 			});
